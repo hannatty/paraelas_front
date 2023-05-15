@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import listaImg from '../assets/lista.svg'
+import porElasLogo from '../assets/porElasLogo;png'
 import { Header } from './Header.jsx'
 import { Footer } from './Footer.jsx'
 
@@ -62,7 +63,7 @@ export function Content() {
       <Header
         title='Por Elas Para Elas'
         subtitle='Conheça iniciativas de impacto feitas por mulheres para mulheres!'
-        image={listaImg}
+        image={porElasLogo}
       />
       <div className={styles.projectsContainer}>
         <div className={styles.projectsContainer}>
