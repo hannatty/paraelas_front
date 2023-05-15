@@ -1,6 +1,6 @@
 .projectsContainer {
   width: 100%;
-  color: #686AAC;
+  color: #FF5500;
   text-align: center;
   padding-top: 2rem;
 }
@@ -8,7 +8,7 @@
 .projectsTitle {
   padding-top: 4rem;
   font-size: 2rem;
-  color: #686AAC;
+  color: #FF5500;
   text-align:center
 }
 
@@ -48,7 +48,7 @@
 }
 
 .cardRepo {
-  background: #686AAC;
+  background: #FF5500;
   width: 30%;
   height: 80%;
   padding: 2rem;
@@ -171,4 +171,9 @@
 
 .formButton:hover {
   background-color: #4CA;
+}
+
+.feedback_message{
+  font-size: 14px;
+  margin-top: 0.5rem;
 }

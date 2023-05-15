@@ -86,7 +86,7 @@ export function Content() {
         </div>
       </div>
       <div >
-        <h2 className={styles.projectsTitle}>Cadastre uma iniciativa Para Elas:</h2>
+        <h2 className={styles.projectsTitle}>Conhece uma iniciativa feita por mulheres e para mulheres? Cadastra aqui!</h2>
         <form  className={styles.form} onSubmit={handleCreateMessage}>
           <input 
             onChange={handleInputValuetitle} 
@@ -102,12 +102,12 @@ export function Content() {
           />
           <textarea 
             onChange={handleInputValuedescription} 
-            placeholder="Digite a description"
+            placeholder="Digite uma pequena descrição sobre essa iniciativa"
             value={description}
             className={styles.formTextArea}
           />
-          <button className={styles.formButton} type="submit">Enviar mensagem</button>
-          {success && <p>Cadastro realizado com sucesso.</p>}
+          <button className={styles.formButton} type="submit">Cadastrar</button>
+          {success && <p className={styles.feedback_message}>Cadastro realizado com sucesso.</p>}
         </form>
       </div>
       <Footer />
