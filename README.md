@@ -2,7 +2,7 @@
 Site traz iniciativas desenvolvidas por mulheres e para muheres.
 
 ## Tecnologias Utilizadas
-React
+`React`
 JavaScript
 HTML
 CSS
